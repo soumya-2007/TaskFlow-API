@@ -1,0 +1,25 @@
+
+{
+  "name": "taskflow-api",
+  "version": "1.0.0",
+  "description": "A RESTful Task Management API built with Node.js, Express.js and my custom npm validation package.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "task-management",
+    "rest-api",
+    "nodejs",
+    "express",
+    "express-input-guard"
+  ],
+  "author": "Soumya Jalihal",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@soumya_jalihal/express-input-guard": "^0.1.0",
+    "bcrypt": "^6.0.0",
+    "express": "^5.3.0"
+  }
+}
